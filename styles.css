@@ -1,0 +1,24 @@
+#cs1300-gallery {
+  background-color: lightsalmon;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+img {
+ width: 250px;
+ height:250px;
+ display: block
+}
+
+button {
+  width:200px;
+  height:100px;
+}
+
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+}
